@@ -20,4 +20,6 @@ When I first used the refactored code the runtime was over 40 seconds, I noticed
 
 ## Summary
 
-Refactoring code can help you figure out how you may be able to combine macros to help things run smoother. It can also help clean the code up to be easier to read. When refactoring you also have a chance to create an error in the code and would have to troubleshot it. In my code the analysis ran but then the formatting code needed to be run separateley to get the boxes colored based on the percentage. I created two buttons to run the analysis and then to format it. Running the refactored code you can attach that macro to the button and it runs the analysis and formats the cells all in one.
+Refactoring code can help you figure out how you may be able to combine macros to help things run smoother. It can also help clean the code up to be easier to read. When refactoring you also have a chance to create an error in the code and would have to troubleshot it. 
+
+In my code the analysis ran but then the formatting code needed to be run separateley to get the boxes colored based on the percentage. I created two buttons to run the analysis and then to format it. Running the refactored code you can attach that macro to the button and it runs the analysis and formats the cells all in one.

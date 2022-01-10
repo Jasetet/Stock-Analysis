@@ -16,7 +16,13 @@ His parents were wanting to invest in DQ stock but in 2018 the stock did not do 
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/94948877/148712346-1ec2ff68-b8ed-4d4e-b950-b6874325c61c.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/94948877/148712359-fee3b68c-532e-4103-9945-0ff3f01571ea.png)
 
-When I first used the refactored code the runtime was over 40 seconds, I noticed I had the "Worksheets(yearValue).Activate" inside the for loop so I believe it was activating the sheet every loop and that is what was taking so long. When I fixed that the time was about the same as the other code. 
+When I first used the refactored code the runtime was over 40 seconds, I noticed I had the "Worksheets(yearValue).Activate" inside the for loop so I believe it was activating the sheet every loop and that is what was taking so long. Shown below:
+<img width="236" alt="Screen Shot 2022-01-09 at 7 00 19 PM" src="https://user-images.githubusercontent.com/94948877/148713589-24b33195-7074-4815-96c8-0c85b0273de8.png">
+When I fixed that the time was about the same as the other code. Fixed code below:
+<img width="245" alt="Screen Shot 2022-01-09 at 7 01 31 PM" src="https://user-images.githubusercontent.com/94948877/148713666-0d6184c9-6697-48a3-a536-cf09bcf79910.png">
+
+
+
 
 ## Summary
 

@@ -18,13 +18,11 @@ His parents were wanting to invest in DQ stock but in 2018 the stock did not do 
 
 When I first used the refactored code the runtime was over 40 seconds, I noticed I had the "Worksheets(yearValue).Activate" inside the for loop so I believe it was activating the sheet every loop and that is what was taking so long. Shown below:
 
-<img width="236" alt="Screen Shot 2022-01-09 at 7 00 19 PM" src="https://user-images.githubusercontent.com/94948877/148713589-24b33195-7074-4815-96c8-0c85b0273de8.png">
-When I fixed that the time was about the same as the other code. Fixed code below:
-
 <img width="245" alt="Screen Shot 2022-01-09 at 7 01 31 PM" src="https://user-images.githubusercontent.com/94948877/148713666-0d6184c9-6697-48a3-a536-cf09bcf79910.png">
 
+When I fixed that the time was about the same as the other code. Fixed code below:
 
-
+<img width="236" alt="Screen Shot 2022-01-09 at 7 00 19 PM" src="https://user-images.githubusercontent.com/94948877/148713589-24b33195-7074-4815-96c8-0c85b0273de8.png">
 
 ## Summary
 

@@ -7,8 +7,10 @@ When we run the code it will show us stocks for whichever year you enter into th
 <img width="321" alt="2017" src="https://user-images.githubusercontent.com/94948877/148708898-6e35bb29-2fd8-4533-a057-ad8938b21054.png">
 <img width="314" alt="2018" src="https://user-images.githubusercontent.com/94948877/148708903-eaece22f-519e-4358-95b7-2ec77da4f59b.png">
 His parents were wanting to invest in DQ stock but in 2018 the stock did not do well so they will probably need to look into other stocks. The images below are the execution times of the code. 
+
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/94948877/148712346-1ec2ff68-b8ed-4d4e-b950-b6874325c61c.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/94948877/148712359-fee3b68c-532e-4103-9945-0ff3f01571ea.png)
+
 When I first used the refactored code the runtime was over 40 seconds, I noticed I had the "Worksheets(yearValue).Activate" inside the for loop so I believe it was activating the sheet every loop and that is what was taking so long. When I fixed that the time was about the same as the other code. 
 
 ##Summary

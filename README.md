@@ -1,8 +1,11 @@
 #Stock Analysis
+
 ##Overview
+
 This analysis is being done on the stock market over the years to hel Steve fine the best stock for his parents. Using VBA I created a code to show us which stocks did the best over which years. This will help Steve figure out which stock his parents should put their money into. 
 
 ##Results
+
 When we run the code it will show us stocks for whichever year you enter into the popup box. This will calculate weather the stocks lost or gained monoey and by how much. We can see that the stocks in 2017 did much better than 2018 in the images below. 
 
 <img width="321" alt="2017" src="https://user-images.githubusercontent.com/94948877/148708898-6e35bb29-2fd8-4533-a057-ad8938b21054.png">
@@ -16,4 +19,5 @@ His parents were wanting to invest in DQ stock but in 2018 the stock did not do 
 When I first used the refactored code the runtime was over 40 seconds, I noticed I had the "Worksheets(yearValue).Activate" inside the for loop so I believe it was activating the sheet every loop and that is what was taking so long. When I fixed that the time was about the same as the other code. 
 
 ##Summary
+
 Refactoring code can help you figure out how you may be able to combine macros to help things run smoother. It can also help clean the code up to be easier to read. When refactoring you also have a chance to create an error in the code and would have to troubleshot it. In my code the analysis ran but then the formatting code needed to be run separateley to get the boxes colored based on the percentage. I created two buttons to run the analysis and then to format it. Running the refactored code you can attach that macro to the button and it runs the analysis and formats the cells all in one.
